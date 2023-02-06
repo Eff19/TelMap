@@ -34,8 +34,10 @@ public class TelMap {
                 System.out.println(telList);
             }
 
-
-
+            if (!telList.containsValue(num)){
+                telList.put((scanner.nextLine()),num);    // добавление значенея (чисел)
+                System.out.println(telList);
+            }
 
 
             if (a.equalsIgnoreCase("DELETE")){
